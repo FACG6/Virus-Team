@@ -1,11 +1,133 @@
+
 *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
 }
 
-    .container {
+.team h1{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #777;
+   width: 220px;
+   margin: 0 auto;
+   
+ 
+}
+.team{
+    background-color:#e6e6e6; 
+}
+
+.con {
     width: 85%;
     margin: 0 auto;
 
 }
+
+.container{
+display: flex;
+width: 75%;
+margin: 0 auto;
+}
+.card{
+    margin: 30px auto;
+   width: 200px;
+   height: 350px;
+   position: relative;
+   transform-style: preserve-3d;
+   transition: all 1s ease-in-out;
+   background-color:transparent;
+   border-radius: 15px; 
+border: none;
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+  
+}
+.card > div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    padding: 10px;
+    border-radius: 10px;
+ 
+    font-family: arial, tahoma;
+    text-align: center;
+ }
+.card .front{
+   z-index: 2;
+   background-color: transparent;
+   backface-visibility: hidden;
+   
+}
+.card .front img{
+    border-radius: 50%;
+   width: 90%;
+   height: 180px;
+   position: relative;
+   top: 10px;
+  
+}
+
+.card .front h3{
+    color: #000;
+    font-family: "Segoe UI",Arial,sans-serif;
+   font-weight: 200px;
+    margin: 20px 20px;
+    font-size: 18px;
+}
+.card .front p{
+ 
+   line-height: 1.7;
+   
+    opacity: 0.60;
+    color: grey;
+  font-size: 18px;
+}
+.card .back{
+   z-index: 1;
+   transform: rotateY(180deg);
+   background-color: transparent;
+   backface-visibility: hidden;
+
+  
+}
+.card .back ul{
+   list-style: none;
+   padding: 0;
+   line-height: 2;
+  
+}
+.card .back ul li{
+    margin-top: 20px;
+   color: #444;
+   padding-bottom: 25px;
+   font-size: 15px;
+   font-weight: bold;
+   text-align: left;
+   margin-left: 40px;
+  
+}
+
+i{
+    margin-right: 20px;
+    
+}
+.fa-linkedin{
+    color: #3385ff;  
+}
+.fa-facebook{
+    color: #3385ff;
+}
+.fa-github{
+    color: #000;   
+}
+
+.fab { 
+    transform: scale(2,2);
+ }
+
