@@ -11,7 +11,7 @@ We hope that our website spread like a virus and get ranked in the first pages i
 ### [Visit GitHub!](www.github.com)
 
 
-## What? <hr>
+## What? 
 **Virus** website introduces our team to potential clients, including our skills and our social contacts. It also gives access to any client to contact us to get furthure information or hire us for any project.
 
 #### The website consists of:
