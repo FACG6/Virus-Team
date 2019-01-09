@@ -1,6 +1,6 @@
 # Virus-Team
 
-## Why? <hr>
+## Why?
 As web developers, we've built our own website as an ID to market ourselves and create a distinct brand that will attract clients all over the world to hire us and benfit from our web development services.
 
 ### Why We Choose "**Virus**" as a Brand Name?
