@@ -1,65 +1,78 @@
 
+* {
+  box-sizing: border-box;
+  margin: 0 ;
+  padding: 0;
+}
 
 .team h1{
-    padding-top: 80px;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #777;
-   width: 220px;
-   margin: 0 auto;
-   
- 
-}
-.team{
-    background-color:#e6e6e6; 
-    margin-top: 5%;
-/* * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-} */
+  padding-top: 80px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #777;
+  width: 220px;
+  margin: 0 auto;
+  text-align: center;
 }
 
+.Show{
+  color: black;
+  float: right;
+  font-weight: bold;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  background-color: white;
+  display: none;
+}
+
+.team{
+  background-color:#e6e6e6;
+  margin-top: 5%;
+}
 
 .container {
   width: 85%;
   margin: 0 auto;
 }
+
 about-us .container{
-    padding-bottom: 25px;
+  padding-bottom: 25px;
 }
 
 body{
   margin: 0 auto;
   height: 150px;
 }
+
 body , html{
   height: 100%;
 }
+
 .clear{
   clear: both;
 }
+
 .cards{
   height: 400px;
   cardsbackground-color: white;
 }
+
 h1,h2,h3{
   font-family: "Oswald";
   letter-spacing: 0.7px;
 }
-/* start navbar  LOGO*/
-header
-{
+
+header {
   height: 100%;
-   /* Center and scale the image nicely */
   background-image: url("images/home-img-1.jpg");
   height: 100vh;
   background-position: center;
   background-size: 100% 100%;
 }
+
 header h1 {
-    color: white;
-    text-align: left;
-    font-size: 70px;
+  color: white;
+  text-align: left;
+  font-size: 70px;
 }
 
 header p{
@@ -94,6 +107,7 @@ nav .navlist {
   float: right;
   margin-right: 15px;
   list-style: none;
+  padding-top: 10px;
 }
 nav .navlist li{
   float: left;
@@ -109,10 +123,11 @@ color:#ddd;
 border-bottom: 1px solid white;
 }
 .hold-talk{
+  margin-top:100px;
   width: 60%;
-  word-break: break-all;
+  -webkit-word-wrap: break-word;
   overflow: hidden;
-  margin-top: 0.2em;
+  margin-top: 100px;
 }
 /*  end navbar */
 /*  start hold talk  */
@@ -123,6 +138,11 @@ height: 250px;
 text-align:center;
 margin-top: 5em;
 text-align: justify;
+
+}
+
+.about-us h1 , contact_container h1{
+  font-size: 1.5em;
 
 }
 .about-us .about-word{
@@ -139,7 +159,10 @@ overflow: hidden;
 
 }
 .about-us ul {
-    line-height: 1.5;
+    line-height: 1.7;
+}
+.about-us ul li {
+  margin-top: 0.4em;
 }
 .about-us .about-image{
   width: 60%;
@@ -185,7 +208,7 @@ filter: brightness(0.8);
 
 }
 .padding-container{
-    padding:50px;
+    padding:50px 0;
 }
 
 form {
@@ -195,7 +218,7 @@ form {
 }
 
 
-.contact_container h2 {
+.contact_container h1 {
     margin: 15px auto;
 }
 
@@ -236,8 +259,11 @@ form button {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
     cursor: pointer;
 
-}
 
+}
+form button:hover{
+background:linear-gradient(45deg, #8c1e1e 0%, #ff3729 100%)
+}
 /*  end about us */
 /*  start footer  */
 footer {
@@ -247,6 +273,7 @@ footer {
     font-family: "Thasadith";
     height: 40px;
     text-align: center;
+    padding-top: 10px;
 
 }
 
@@ -264,19 +291,19 @@ margin: 0 auto;
 }
 .card{
     margin: 30px auto;
-   width: 200px;
-   height: 350px;
+    width: 25%;
+      height: 350px;
    position: relative;
    transform-style: preserve-3d;
    transition: all 1s ease-in-out;
    background-color:transparent;
-   border-radius: 15px; 
+   border-radius: 15px;
 border: none;
+
 }
 
 .card:hover{
     transform: rotateY(180deg);
-  
 }
 .card > div{
     position: absolute;
@@ -284,10 +311,10 @@ border: none;
     left: 0;
     width: 100%;
     height: 100%;
-   
+
     padding: 10px;
     border-radius: 10px;
- 
+
     font-family: arial, tahoma;
     text-align: center;
  }
@@ -295,15 +322,14 @@ border: none;
    z-index: 2;
    background-color: transparent;
    backface-visibility: hidden;
-   
 }
 .card .front img{
     border-radius: 50%;
-   width: 90%;
+   width: 100%;
    height: 180px;
    position: relative;
    top: 10px;
-  
+
 }
 
 .card .front h3{
@@ -314,11 +340,11 @@ border: none;
     font-size: 18px;
 }
 .card .front p{
- 
+
    line-height: 1.7;
-   
-    opacity: 0.60;
-    color: grey;
+
+    opacity: 0.80;
+    color: black;
   font-size: 18px;
 }
 .card .back{
@@ -327,13 +353,13 @@ border: none;
    background-color: transparent;
    backface-visibility: hidden;
 
-  
+
 }
 .card .back ul{
    list-style: none;
    padding: 0;
    line-height: 2;
-  
+
 }
 .card .back ul li{
     margin-top: 20px;
@@ -343,24 +369,93 @@ border: none;
    font-weight: bold;
    text-align: left;
    margin-left: 40px;
-  
+
 }
 
 i{
     margin-right: 20px;
-    
+
 }
 .fa-linkedin{
-    color: #3385ff;  
+    color: #3385ff;
 }
 .fa-facebook{
     color: #3385ff;
 }
 .fa-github{
-    color: #000;   
+    color: #000;
 }
 
-.fab { 
+.fab {
     transform: scale(2,2);
  }
+/*  media query classes */
+@media (max-width:600px){
+  body{
+    height: 100%;
+  }
+  .container{
+    width: 95%;
+  }
+  .hold-talk{
+    width: 100%;
+  }
+  .hold-talk p{
+    width: 100%;
+    -webkit-word-wrap: break-word;
+    font-family: 'Arial';
+    font-size: 1.2em;
 
+
+  }
+  .about-us .about-word{
+    width: 100%;
+    -webkit-word-wrap: break-word;
+    overflow: hidden;
+    padding-left: 0;
+
+  }
+  .about-us .about-word p{
+    -webkit-word-wrap: break-word;
+
+  }
+  .about-us .about-image{
+  width: 100%;
+}
+.about-us .about-image .imgs{
+  margin-left: 0%;
+
+}
+.con{
+flex-direction: column;
+width: 100%;
+}
+.card{
+  width: 100%;
+  border-radius: 50%;
+
+}
+.card .front img{
+  width: 50%;
+}
+.contact_container{
+  width: 85%;
+}
+*{
+  margin-right: 0;
+}
+nav .navlist {
+  float: right;
+  list-style: none;
+}
+nav .navlist li{
+  margin-left: 1em;
+  line-height: 1.5;
+  font-size: 15px;
+
+}
+
+
+
+
+}
