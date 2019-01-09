@@ -1,34 +1,159 @@
-body, html {
-    margin: 0;
-    padding: 0;
+/*  global */
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+body{
+  margin: 0 auto;
+  height: 150px;
 
 }
-#home {
-    width: 100%;
-    height: 100vh;
-    background-image: url(home-img-1.jpg);
-    background-position: center;
-    background-size: 100% 100%;
+body , html{
+  height: 100%;
+
 }
-.container{
-    filter: brightness(100%);
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 100px;
-    justify-content: space-between;
+.clear{
+  clear: both;
 }
-h1 {
+.cards{
+  height: 400px;
+  background-color: white;
+}
+h1,h2,h3{
+  font-family: "Oswald";
+  letter-spacing: 0.7px;
+}
+h2 {
+
+}
+/* start navbar  LOGO*/
+header
+{
+  height: 100%;
+   /* Center and scale the image nicely */
+  background-image: url("images/home-img-1.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: 100% 100%;
+}
+header h1 {
     color: white;
     text-align: left;
     font-size: 70px;
 }
-p{
+header p{
     color: white;
     text-align: left;
     font-size: 25px;
-    width: 600px
+    width: 500px
 }
+
+nav {
+  color: white;
+  height: 50px;
+  color: white;
+  background-color: #13110d;
+  font-family: "Thasadith";
+  font-weight: bolder;
+
+}
+nav .LOGO{
+  float: left;
+  font-family: "Oswald";
+  font-size: 1.2em;
+  padding-top: .8em;
+  letter-spacing: 4px;
+}
+nav .LOGO span{
+  color: red;
+  font-weight: bold;
+  font-size: 22px;
+}
+nav .navlist {
+  float: right;
+  margin-right: 15px;
+  list-style: none;
+}
+nav .navlist li{
+  float: left;
+  margin-left: 1em;
+  line-height: 1.5;
+}
+nav .navlist li a {
+  color: white;
+  text-decoration: none;
+}
+nav .navlist li a:hover{
+color:#ddd;
+border-bottom: 1px solid white;
+}
+.hold-talk{
+  width: 60%;
+  word-break: break-all;
+  overflow: hidden;
+  margin-top: 3.2em;
+}
+/*  end navbar */
+/*  start hold talk  */
+/*  end hold talk  */
+/*  start about us */
+.about-us{
+  height: 250px;
+text-align:center;
+margin-top: 5em;
+text-align: justify;
+
+}
+.about-us .about-word{
+  width: 35%;
+  float: left;
+margin-top: 10px;
+color: black;
+padding-left: 1.5em;
+overflow: hidden;
+}
+.about-us .about-word p{
+  font-size: 18px;
+  line-height: 1.5;
+
+}
+.about-us .about-image{
+  width: 60%;
+  overflow: hidden;
+  float: right;
+}
+.about-us .about-image img{
+  width: 100%;
+    border-radius: 15px;
+opacity: 0.8;
+
+}
+
+.about-us .about-image .imgs{
+  overflow: hidden;
+  margin-left: 12%;
+
+}
+
+/*  end about us */
+/*  start footer  */
+footer{
+width: 100%;
+ background-color: black;
+  color: white;
+  font-family: "Thasadith";
+height: 40px;
+text-align: center;
+
+}
+footer p{
+  color: white;
+vertical-align: middle;
+margin: auto;
+
+}
+p{
+  font-family: 'Roboto';
+
+}
+@media(min-)
