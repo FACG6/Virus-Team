@@ -60,7 +60,7 @@ nav .LOGO{
   float: left;
   font-family: "Oswald";
   font-size: 1.2em;
-  padding-top: .8em;
+  padding-top: .3em;
   letter-spacing: 4px;
 }
 nav .LOGO span{
@@ -90,7 +90,7 @@ border-bottom: 1px solid white;
   width: 60%;
   word-break: break-all;
   overflow: hidden;
-  margin-top: 3.2em;
+  margin-top: 0.2em;
 }
 /*  end navbar */
 /*  start hold talk  */
@@ -155,4 +155,3 @@ p{
   font-family: 'Roboto';
 
 }
-@media(min-)
