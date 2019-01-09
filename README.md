@@ -38,6 +38,7 @@ We hope that our website spread like a virus and get ranked in the first pages i
 The process of completing our website goes as follows:
 1. We discussed the layout of our website and drew a sketch. 
 #### First Sketch:
+![Layout](images/layout.jpg)
 
 
 2. We divided the tasks between us.
